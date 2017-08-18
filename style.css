@@ -1,0 +1,490 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #e8e8e8;
+	color: #000;
+	line-height: 20px;
+	font-size: 11px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
+}
+
+#header {
+	background: url(http://stevegray.net/img/wp/top.gif) 0 0 repeat-x;
+	height: 112px;
+	padding: 0 20px 1px 20px;
+}
+
+#header .inner {
+	height: 112px;
+	width: 700px;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#header .inner h1 {
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", Helvetica, Arial, sans-serif;
+	font-size: 4em;
+	font-weight: normal;
+	line-height: 138px;
+	width: 400px;
+}
+
+#header .inner h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+#description {
+	background: #2f2f2f url(http://static.tumblr.com/vr9xgox/b4pnf908f/description-bg.gif) top center repeat-x;
+	color: #fff;
+	padding: 10px 20px 10px 2px;
+	text-align: right;
+	margin: 0;
+}
+
+#description .inner {
+	width: 500px;
+	margin: 0px auto;
+	padding: 0 40px 0 180px;
+}
+
+#description .inner a {
+	text-decoration: none;
+	color: #eee;
+	background: #444;
+	padding: 2px 3px 2px 3px;
+	border-bottom: 1px solid #000;
+}
+
+#content div.post {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/MCdnf90au/post-bg.gif) top center repeat-x;
+	padding: 0 20px 0 20px;
+	margin: 0;
+}
+
+#content div.post div.inner {
+	width: 680px;
+	margin: 1px auto;
+	position: relative;
+	padding: 0 20px 40px 0;
+	border-right: 0px solid #aaa;
+	border-left: 1px solid #182d2e;
+}
+
+#content div.post div.inner a {
+	color: #333;
+	text-decoration: none;
+	background: #e1e1e1;
+	padding: 2px 3px 2px 3px;
+	border-bottom: 1px solid #aaa;
+}
+
+#content div.post div.inner a:hover {
+	color: #eee;
+	background: #555;
+	border-bottom: 1px solid #555;
+}
+
+#content div.post div.inner div.permalink {
+	background: url(http://static.tumblr.com/vr9xgox/OoXnf90br/tic.gif) top center no-repeat;
+	width: 39px;
+	padding: 20px 0 0 0;
+	top: -19px;
+	left: -20px;
+	position: absolute;
+}
+
+#content div.post div.inner div.permalink a {
+	text-indent: -999px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	height: 37px;
+	width: 37px;
+	border: 0;
+	padding: 0;
+	background: #e8e8e8;
+}
+
+#content div.post div.inner div.perma-photo a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/3Bynf90cd/photo.gif) center center no-repeat;
+}
+
+#content div.post div.inner div.perma-regular a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/vCvnf90cu/regular.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.perma-link a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/CDHnf90d8/link.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.perma-quote a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/LKUnf90dn/quote.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.perma-video a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/mk7nf90e1/video.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.perma-audio a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/x4mnf90eh/audio.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.perma-chat a {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/SgYnf90ew/chat.gif) 6px 0px no-repeat;
+}
+
+#content div.post div.inner div.date {
+	position: absolute;
+	top: 35px;
+	left: 10px;
+	line-height: 10px;
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	color: #aaa;
+}
+
+#content div.post div.inner div.date .day {
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+#content div.post div.inner:hover div.date {
+	color: #aaa;
+}
+
+#content div.post div.inner div.date .month {
+	display: block;
+	line-height: 16px;
+}
+
+#content div.post div.inner div.date .year {
+	display: block;
+	font-size: 16px;
+	line-height: 14px;
+}
+
+#content div.post div.inner div.regular {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+#content div.post div.inner div.regular img {
+	max-width: 100%;
+}
+
+#content div.post div.inner div.regular ul, #content div.post div.inner div.regular ol {
+	margin: 0 0 20px 40px;
+	padding: 0;
+}
+
+#content div.post div.inner div.regular h2 {
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+}
+
+#content div.post div.inner div.regular h2 a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px #bbb solid;
+	border-right: 1px #bbb solid;
+	padding: 5px 7px 5px 7px;
+}
+
+#content div.post div.inner div.regular h2 a:hover {
+	color: #fff;
+	border-bottom: 1px #333 solid;
+	border-right: 1px #333 solid;
+}
+
+#content div.post div.inner div.regular p {
+	margin: 0 0 18px 0;
+}
+
+#content div.post div.inner div.regular blockquote {
+	margin: 0 20px 0 20px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border-left: 1px #555 solid;
+}
+
+#content div.post div.inner ul, #content div.post div.inner ol {
+	margin: 0 20px 0 40px;
+}
+
+#content div.post div.inner ul {
+	list-style: circle;
+}
+
+#content div.post div.inner ul li, #content div.post div.inner ol li {
+	margin: 0 0 9px 0;
+}
+
+#content div.post div.inner div.photo {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+#content div.post div.inner div.photo img {
+	margin: 5px 18px 18px 0;
+}
+
+#content div.post div.inner div.photo blockquote {
+	margin: 0 20px 0 20px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border-left: 1px #555 solid;
+}
+
+#content div.post div.inner div.link {
+	margin: 0 0 0 60px;
+	padding: 35px 0 0 0;
+}
+
+#content div.post div.inner div.link a.link {
+	margin: 0 0 12px 0;
+	display: block;
+	color: #555;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	border: 0;
+	background: #e8e8e8;
+}
+
+#content div.post div.inner div.link a.link:hover {
+}
+
+#content div.post div.inner div.link a.link span {
+	color: #555;
+	background: #fff;
+	padding: 2px 6px;
+	border-bottom: 1px solid #555;
+}
+
+#content div.post div.inner div.link a.link:hover span {
+	color: #fff;
+	background: #555;
+	border-bottom: 1px solid #555;
+}
+
+#content div.post div.inner div.link .description p {
+	margin: 0 0 18px 0;
+}
+
+#content div.post div.inner div.link .description blockquote {
+	margin: 0 20px 0 20px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border-left: 1px #555 solid;
+}
+
+#content div.post div.inner div.conversation {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+#content div.post div.inner div.conversation h2 {
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+}
+
+#content div.post div.inner div.conversation h2 a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px #bbb solid;
+	padding: 5px 7px 5px 7px;
+	border-right: 1px #bbb solid;
+}
+
+#content div.post div.inner div.conversation h2 a:hover {
+	color: #fff;
+	border-bottom: 1px #333 solid;
+	border-right: 1px #333 solid;
+}
+
+#content div.post div.inner div.conversation ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+#content div.post div.inner div.conversation ul li {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin: -1px 0 0 0;
+	padding: 10px 0 10px 0;
+}
+
+#content div.post div.inner div.conversation ul li .label {
+	font-weight: bold;
+}
+#content div.post div.inner div.quote {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+#content div.post div.inner div.quote blockquote.quote {
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", Helvetica, Arial, sans-serif;
+}
+
+#content div.post div.inner div.quote blockquote.short {
+	line-height: 34px;
+	font-size: 30px;
+}
+
+#content div.post div.inner div.quote blockquote.medium {
+	line-height: 28px;
+	font-size: 24px;
+}
+
+#content div.post div.inner div.quote blockquote.long {
+	line-height: 20px;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif !important;
+}
+
+#content div.post div.inner div.quote .source {
+	margin: 14px 0 0 0;
+	display: block;
+}
+
+#content div.post div.inner div.video {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+#content div.post div.inner div.video object {
+	margin: 0 0 18px 0;
+}
+
+#content div.post div.inner div.video blockquote {
+	margin: 0 20px 0 20px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border-left: 1px #555 solid;
+}
+
+#content div.post div.inner div.audio {
+	margin: 0 0 0 60px;
+	padding: 30px 0 0 0;
+}
+
+
+#content div.post div.inner div.audio div.audio_player {
+	margin: 0 0 18px 0;
+}
+
+#content div.post div.inner div.audio blockquote {
+	margin: 0 20px 0 20px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border-left: 1px #555 solid;
+}
+
+#navigation {
+	background: #2f2f2f url(http://static.tumblr.com/vr9xgox/b4pnf908f/description-bg.gif) top center repeat-x;
+	color: #555;
+	padding: 10px 20px 10px 2px;
+	text-align: right;
+}
+
+#navigation .inner {
+	width: 700px;
+	margin: 0px auto;
+	padding: 0 0 0 0;
+}
+
+#navigation .inner a {
+	color: #fff;
+	border-bottom: 0px solid #aaa;
+	text-decoration: none;
+	padding: 0 0 2px 0;
+}
+
+#footer {
+	background: #e8e8e8 url(http://static.tumblr.com/vr9xgox/MCdnf90au/post-bg.gif) top center repeat-x;
+	padding: 0 20px 0 20px;
+	margin: 0;
+}
+
+#footer div.inner {
+	width: 620px;
+	margin: 1px auto;
+	position: relative;
+	padding: 0 20px 40px 60px;
+	border-right: 0px solid #aaa;
+	border-left: 0px solid #aaa;
+}
+
+#footer div.inner p#tic {
+	display: block;
+	position: absolute;
+	top: -19px;
+	left: -19px;
+	background: url(http://static.tumblr.com/vr9xgox/OoXnf90br/tic.gif) top left no-repeat;
+	padding: 35px 0 0 80px;
+	font-weight: bold;
+}
+
+#footer div.inner h2 {
+	margin: 20px 0 10px 0;
+}
+
+#footer div.inner ul {
+	list-style: none;
+	margin: 0 0 60px 0;
+}
+
+#footer div.inner ul li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+#footer div.inner ul li a {
+	display: block;
+	color: #555;
+	text-decoration: none;
+	background: #fff;
+	border-bottom: 1px #bbb solid;
+	border-right: 1px #bbb solid;
+	padding: 2px 7px;
+}
+
+#footer div.inner p {
+	color: #666;
+}
+
+#footer div.inner a {
+	color: #333;
+	text-decoration: none;
+	background: #e1e1e1;
+	padding: 2px 3px 2px 3px;
+	border-bottom: 1px solid #aaa;
+}
+
+#footer div.inner a:hover {
+	color: #eee;
+	background: #555;
+	border-bottom: 1px solid #555;
+}
+
+#search {
+	margin: 15px 0 0;
+}
+#searchresultcount {
+	margin: 20px 0 25px;
+	text-align: center;
+}
+.query {
+	font-weight: bold;
+}
